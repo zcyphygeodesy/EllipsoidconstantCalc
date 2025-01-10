@@ -1,8 +1,8 @@
 ## Fortran codes for calculation of the geometric and physical constants of Earth ellipsoid
 https://www.zcyphygeodesy.com/en/h-nd-116.html
 ## [Algorithm purpose]
-    From four basic parameters of the Earth ellipsoid, calculate the main geometric and physical derived constants of the Earth ellipsoid. The fourth basic parameter can be selected from the second-degree zonal harmonic coefficient C̅₂₀ from global geopotential model, dynamic form factor J₂, reciprocal 1/f of the ellipsoid flattening and ellipsoid normal geopotential U₀.
-    PAGravf4.5 suggests that the scale parameters (GM, a) of global geopotential model, second-degree zonal harmonic coefficient C̅₂₀ and the mean rotation angular velocity ω should be employed as the four basic parameters of the normal ellipsoid. Using such a normal ellipsoid as the reference datum, the second-degree zonal harmonic term of anomalous gravity field is always zero, which is beneficial to improve the performance of the gravity field approach.
+&emsp;```From four basic parameters of the Earth ellipsoid, calculate the main geometric and physical derived constants of the Earth ellipsoid. The fourth basic parameter can be selected from the second-degree zonal harmonic coefficient C̅₂₀ from global geopotential model, dynamic form factor J₂, reciprocal 1/f of the ellipsoid flattening and ellipsoid normal geopotential U₀.```  
+&emsp;```PAGravf4.5 suggests that the scale parameters (GM, a) of global geopotential model, second-degree zonal harmonic coefficient C̅₂₀ and the mean rotation angular velocity ω should be employed as the four basic parameters of the normal ellipsoid. Using such a normal ellipsoid as the reference datum, the second-degree zonal harmonic term of anomalous gravity field is always zero, which is beneficial to improve the performance of the gravity field approach.```
 ![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAg6_zltwYoxPeZ9AIwpQ047gg.jpg)
 ## [Main program for entrance]
     EllipsoidconstCalc.f90
